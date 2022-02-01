@@ -3,11 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English project</title>
-    <script>
-        alert(" ")
-    </script>
     <style>
         ::-webkit-scrollbar { width: 5px;}
         ::-webkit-scrollbar-track { background: #919191;}
@@ -22,7 +19,7 @@
 
         }
         .clear{
-            width: 100%;
+            max-width: 100%;
             height: 1000px;
 
         }
@@ -30,15 +27,16 @@
             background-image: url(https://media-prd.coachella.com/content/seo_images/76/RN9URApNiGKO7oPxaDndNq8dG6v2f4FFYVSi6mZh.jpeg);
             background-repeat: no-repeat;
             background-size: cover;
-            background-attachment: fixed;  
-            width: 100%;
-            height: 2000px;
+            background-attachment: fixed;
+            max-width: 100%;  
+            width: auto;
+            height: 2000px; 
             border-radius: 25px;
 
         }
         div#title{
             height: 1000px;
-            width: 100%;
+            max-width: 100%;
 
         }
         div#blur{
@@ -50,7 +48,7 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-weight: 100;
             text-align: center;
-            font-size: 200px;
+            font-size: 100px;
             background: -webkit-linear-gradient(45deg,rgb(10, 207, 112), rgb(111, 0, 255));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -68,10 +66,17 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-weight: 100;
             font-size: 40px;
-            margin-left: 50px;
+            margin-left: auto;
 
         }
+        div#body2{
+            max-width: 100%;
+            height: 1000px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
 
+        }
     </style>
 
 
@@ -102,7 +107,18 @@
                 </div>
             </div>   
         </div>
-
+        <div id="clear">
+        </div>
+        <div id="body2">
+            <div id="title">
+                <div class="clear">
+                </br>
+                </div>
+                <div id="blur">
+                    <p id="normaltext"> The first festival was in 1993</p>
+                </div>
+            </div>
+        </div>
 
 </body>
 </html>
