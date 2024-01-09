@@ -1,0 +1,32 @@
+html{
+    background: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.date{
+    background: linear-gradient(153deg, rgba(161,0,209,1) 0%, rgba(0,220,255,1) 100%); 
+    background-clip: text;
+    animation: gradient 15s ease infinite;
+
+}
+
+
+p {
+    -webkit-text-fill-color: transparent;
+    font-size: 17vw;
+    font-weight: 700;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
