@@ -12,10 +12,16 @@ html{
 }
 
 
-p {
+.number {
     -webkit-text-fill-color: transparent;
     font-size: 17vw;
     font-weight: 700;
+}
+
+.link {
+    -webkit-text-fill-color: transparent;
+    font-size: 1vw;
+    font-weight: 700;	
 }
 
 @keyframes gradient {
