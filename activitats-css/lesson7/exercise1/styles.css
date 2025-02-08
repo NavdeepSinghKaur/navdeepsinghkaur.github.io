@@ -1,0 +1,31 @@
+:root {
+    --green_color: rgb(0, 128, 13);
+    --blue_color: rgb(0, 82, 215);
+    --purple_color: rgb(128, 0, 128);
+}
+
+.main {
+    width: 1000px;
+}
+
+.main__text {
+    font-size: 2rem;
+}
+
+.kodak__name {
+    color: rgb(222, 189, 0);
+}
+
+.highlight__text {
+    background-color: var(--blue_color);
+    color: #fff;
+}
+
+.green__highlight__text {
+    background-color: var(--green_color);
+    color: #fff;
+}
+
+.purple__text {
+    color: var(--purple_color);
+}
