@@ -1,0 +1,9 @@
+:root{
+    --size1: 500px;
+}
+
+.rectangle {
+    width: calc(var(--size1)*2);
+    height: var(--size1);
+    background-color: rgb(167, 163, 163);
+}
