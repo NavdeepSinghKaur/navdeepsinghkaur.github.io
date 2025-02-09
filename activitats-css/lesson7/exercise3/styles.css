@@ -1,0 +1,35 @@
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.comment__section {
+    font-size: 2rem;
+    background-color: rgb(242, 242, 242);
+}
+.comment__title {
+    font-weight: 700;
+    color: #f00;
+    text-decoration: underline rgb(181, 181, 181) 2px;
+    text-underline-offset: 7px;
+}
+.date__comment {
+    color: rgb(124, 124, 124);
+    font-style: italic;
+}
+.header__title {
+    color: #f00;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about__content {
+    font-size: 3rem;
+}
+
+.highlight__text {
+    background-color: red;
+    color: white;
+}
+
+.red__text {
+    color: red;
+}
