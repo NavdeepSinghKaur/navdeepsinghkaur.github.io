@@ -1,0 +1,24 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title{
+    font-size: 5rem;
+    text-align: center;
+}
+
+.introduction {
+    font-size: 1.2rem;
+    margin: 1rem;
+    font-style: italic;
+
+}
+.author {
+    font-weight: 700;
+}
+
+.text {
+    font-size: 2rem;
+    margin: 3rem 2rem 0rem 2rem;
+    word-spacing: 0.3rem;
+}
