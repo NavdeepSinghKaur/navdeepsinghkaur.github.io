@@ -1,0 +1,23 @@
+.paragraph1{
+    background-color: yellow;
+    word-spacing: normal;
+    width: fit-content;
+}
+.paragraph2{
+    background-color: yellow;
+    word-spacing: 0.15rem;
+    width: fit-content;
+
+}
+.paragraph3{
+    background-color: yellow;
+    word-spacing: 0.3rem;
+    width: fit-content;
+
+}
+.paragraph4{
+    background-color: yellow;
+    word-spacing: 0.45rem;
+    width: fit-content;
+
+}
