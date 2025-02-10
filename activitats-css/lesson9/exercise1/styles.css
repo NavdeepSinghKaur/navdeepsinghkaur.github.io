@@ -1,0 +1,16 @@
+.title {
+    font-size: 3rem;
+}
+
+.text {
+    font-size: 2rem;
+}
+
+.machine {
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+.info {
+    font-size: 2rem;
+}
