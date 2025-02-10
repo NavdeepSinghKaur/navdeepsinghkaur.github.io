@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.comments{ 
+    background-color: #c7c5c5;
+    border-radius: 25px;
+    margin-bottom: 2%;
+    min-height: 18vh;
+    height: fit-content;
+}
+
+.avatar{
+    margin-top: 1%;
+    height: 25px;
+    width: 25px;
+    
+}
+
+.date, .name {
+    color: #5d5d5d;
+    text-transform: uppercase;
+}
+
+.message, .date, .name, .avatar{
+    margin-left: 2%;
+}
