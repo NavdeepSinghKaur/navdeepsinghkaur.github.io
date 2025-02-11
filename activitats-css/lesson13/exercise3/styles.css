@@ -1,0 +1,12 @@
+.hiddenElement {
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.visible-element {
+    border: 3px solid black;
+}
+
+.visible-element:hover + .hiddenElement {
+    visibility: visible;
+}

@@ -1,0 +1,54 @@
+body {
+    max-width: 20vw;
+}
+
+.outer-div {
+    border: 3px solid rgb(127, 127, 127);
+    margin-left: 5rem;
+
+}
+
+.inner-div {
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+.price {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.intro-text, .bottom-text, .green-button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.green-button {
+    font-weight: 700;
+    background-color: rgb(40, 148, 99);
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    text-align: center;
+    padding: 1rem;
+    &:hover {
+        background-color: rgb(0, 128, 64);
+    }
+}
+
+.transparent-button {
+    font-weight: 700;
+    background-color: transparent;
+    color: rgb(40, 148, 99);
+    font-size: 1.2rem;
+    border: none;
+    text-align: center;
+    padding: 0.5rem;
+    &:hover {
+        background-color: rgb(40, 148, 99);
+        color: white;
+    }
+}
