@@ -1,0 +1,7 @@
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border: 4rem solid;
+    border-image: linear-gradient(rgb(0, 200, 255), rgb(255, 0, 43)) 1;
+}

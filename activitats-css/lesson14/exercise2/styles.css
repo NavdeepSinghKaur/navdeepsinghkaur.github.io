@@ -1,0 +1,9 @@
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border-top: 20px solid orange;
+    border-bottom: 20px solid orange;
+    border-left: 20px dashed orange;
+    border-right: 20px dashed orange;
+}
