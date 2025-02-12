@@ -1,0 +1,7 @@
+.image {
+    height: 50vh;
+    aspect-ratio: 16/9;
+    &:hover {
+        filter: grayscale(100%);
+    }
+}
