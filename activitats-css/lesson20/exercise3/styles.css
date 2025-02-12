@@ -1,0 +1,25 @@
+.main-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.red-circle {
+    background-color: #f00;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.blue-circle {
+    background-color: #00f;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    opacity: 0.5;
+    &:hover {
+        transform: translateX(-430px);
+    }
+}
