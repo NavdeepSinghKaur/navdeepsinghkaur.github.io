@@ -1,0 +1,49 @@
+@keyframes eclipse {
+    0% {
+     left: 0;   
+    }
+    50% {
+        left: 50%;  
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes background {
+    0% {
+        background-color: white;  
+       }
+       50% {
+        background-color: black;
+       }
+       100% {
+        background-color: white;
+       }
+}
+
+body {
+    animation: background 7s infinite;
+}
+
+.box {
+    display: flex;
+    margin-top: 50vh;
+}
+
+.sun {
+    background-color: yellow;
+    height: 3rem;
+    width: 3rem;
+    margin-left: 50%;
+    border-radius: 50%;
+}
+
+.moon {
+    background-color: gray;
+    animation: eclipse 7s infinite;
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
