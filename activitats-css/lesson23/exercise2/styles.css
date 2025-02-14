@@ -1,0 +1,37 @@
+body {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.images{
+    display: grid;
+    perspective: 500px;
+    perspective-origin: right;
+
+}
+
+.wall {
+    height: 50vh;
+    aspect-ratio: 16/9;
+}
+
+.floor{
+    margin-top: -70px;
+    width: 100vw;
+    transform: rotateX(45deg);
+}
+
+.sheep {
+    position: absolute;
+    transform: translate(400%, 400%);
+
+}
+
+.sheep-back {
+    position: absolute;
+    transform: translate(300%, 350%);
+    filter: blur(6px) brightness(0);
+}
