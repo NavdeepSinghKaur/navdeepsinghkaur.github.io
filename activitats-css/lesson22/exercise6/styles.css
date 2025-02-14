@@ -1,0 +1,48 @@
+@keyframes anim {
+    0% {
+    transform: rotate(-30deg);
+    } 50% {
+    transform: rotate(30deg);
+    } 100% {
+    transform: rotate(-30deg);
+    }
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.pendulum {
+    position: relative;
+    width: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    width: 4px;
+    height: 100%;
+    background-color: black;
+}
+
+.ball {
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+.pendulum {
+    animation: anim 8s infinite;
+}
