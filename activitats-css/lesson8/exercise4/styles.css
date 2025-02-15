@@ -1,11 +1,11 @@
 @font-face {
     font-family: Roboto;
-    src: url(./Roboto.ttf) format('truetype');
+    src: url(./fonts/Roboto.ttf) format('truetype');
 }
 
 @font-face {
     font-family: Inter;
-    src: url(./Inter.ttf) format('truetype');
+    src: url(./fonts/Inter.ttf) format('truetype');
 }
 
 .title {
