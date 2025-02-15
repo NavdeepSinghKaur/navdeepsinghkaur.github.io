@@ -20,7 +20,7 @@ a {
     margin: 5rem;
     border: 1px solid #2e2f2e;
     color: black;
-    transition: 0.7s;
+    transition: 0.5s;
     &:hover{
         transition: 0.7s;
         color: #20b8cd;
