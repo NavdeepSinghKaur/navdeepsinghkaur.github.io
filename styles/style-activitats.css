@@ -4,7 +4,7 @@ body {
     margin-left: 5rem;
 }
 strong {
-    
+    cursor: alias;
     text-transform: uppercase;
     margin: 0;
 }
