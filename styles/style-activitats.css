@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 5rem;
+}
+strong {
+    
+    text-transform: uppercase;
+    margin: 0;
+}
+div {
+    transition: 0.7s;
+    border-radius: 1.25rem;
+    margin-bottom: 0.3rem;
+    display: inline-flex;
+    border: 1px solid black;
+    width: 14rem;
+    height: 10rem;
+    padding: 3rem;
+    &:hover{
+        transition: 0.7s;
+        background-color: #2e2f2e;
+    }
+    &:hover a {
+        transition: 0.7s;
+        color: #20b8cd;
+    }
+    &:hover a:hover {
+        color:  #6eeeff;
+    }
+    &:hover strong {
+        transition: 0.7s;
+        color: white;
+    }
+}
+ul {
+    margin-top: 0;
+    display: inline-block;
+    list-style-type: none;
+}
+li {
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
