@@ -3,11 +3,25 @@
     src: url(./fonts/Lexend.ttf);
 }
 
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 html, body {
-    background-color: #fff;
-    margin: 0;
+    margin: 1.5rem 0 0 0;
     padding: 0;
-    margin-bottom: 10vh;
     font-family: 'Lexend', Arial, Helvetica, sans-serif;
 }
 
@@ -39,14 +53,14 @@ html, body {
     text-underline-offset: 5px;
     text-decoration-thickness: 3px;
     color: rgb(60, 174, 255);
+
 }
 
 .element {
     list-style-type: none;
 }
 
-
-h1 {
+.name {
     color: transparent;
     background: -webkit-linear-gradient(45deg, rgb(0, 213, 255), rgb(157, 0, 255));
     background-clip: text;
@@ -86,4 +100,12 @@ p {
     background-clip: text;
     text-align: center;
     padding: 20vw;   
+}
+
+footer {
+    background-color: #068899;
+    color: white;
+    text-align: center;
+    padding: 0.2rem;
+    bottom: 0;
 }
