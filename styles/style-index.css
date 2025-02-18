@@ -37,12 +37,13 @@ html, body {
 }
 
 .banner a{
+    transition: 1s;
     margin-right: 5rem;
     float: inline-start;
     color: black;
     text-align: right;
     padding: 12px;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
@@ -50,8 +51,6 @@ html, body {
 
 .banner a:hover {
     transition: 0.5s;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 3px;
     color: rgb(60, 174, 255);
 
 }
@@ -62,10 +61,22 @@ html, body {
 
 .name {
     color: transparent;
-    background: -webkit-linear-gradient(45deg, rgb(0, 213, 255), rgb(157, 0, 255));
+    background: -webkit-linear-gradient(45deg, rgb(0, 255, 229), rgb(221, 0, 255));
     background-clip: text;
-    margin-top: 50vh;
+    margin-top: 40vh;
     text-align: center;
+}
+
+.network {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 20vh;
+}
+
+.network a {
+    padding: 20px;
 }
 
 table {
@@ -75,14 +86,19 @@ table {
     background: white;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
+
 th, td {
-    padding: 0.75rem;
     border: 1px solid #ddd;
     text-align: center;
 }
 th {
-    background-color: #20b8cd;
-    color: white;
+    padding: 1.25em;
+    background-color: #2e2f2e;
+    color: #fff;
+}
+
+td {
+    padding: 0.5em;
 }
 
 p {
@@ -99,13 +115,43 @@ p {
 .bottom-text {
     background-clip: text;
     text-align: center;
-    padding: 20vw;   
+    padding: 20vw; 
+}
+
+.download-div {
+    transition: 3s;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.download-cv-btn {
+    border: none;
+    border-radius: 1.05rem;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: .5s;
+    background-color: #2e2f2e;
+    color: #fff;
+    &:hover {
+        transition: 0.5s;
+        background-color: #068899;
+    }
+
 }
 
 footer {
-    background-color: #068899;
+    transition: 3s;
+    background-color: #2e2f2e;
     color: white;
     text-align: center;
     padding: 0.2rem;
     bottom: 0;
+    &:hover{
+        transition: 0.25s;
+        background-color: #068899;
+    }
 }
