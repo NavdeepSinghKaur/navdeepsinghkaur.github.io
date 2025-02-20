@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Lexend';
+    src: url(./fonts/Lexend.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -7,14 +12,58 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: #f8f8f8;
+    font-family: 'Lexend', Arial, Helvetica, sans-serif;
+
 }
-a {
+
+.banner {
+    overflow: hidden;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    position: fixed;
+}
+
+.banner a{
+    transition: 1s;
+    margin-right: 5rem;
+    float: inline-start;
+    color: black;
+    text-align: right;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.banner a:hover {
+    transition: 0.5s;
+    color: rgb(60, 174, 255);
+
+}
+
+.element {
+    list-style-type: none;
+}
+
+h1 {
+    color: transparent;
+    background: -webkit-linear-gradient(45deg, rgb(0, 255, 229), rgb(221, 0, 255));
+    background-clip: text;
+    margin-top: 40vh;
+    text-align: center;
+}
+
+.projects a {
     border-radius: 1.5rem;
     text-underline-offset: 3px;
     text-decoration-thickness: 2px;
     text-decoration-color: rgb(180, 180, 180);
     font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     padding: 4rem;
     margin: 5rem;

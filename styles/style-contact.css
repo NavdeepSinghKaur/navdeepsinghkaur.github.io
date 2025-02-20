@@ -11,7 +11,41 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    font-family: 'Lexend';
+    font-family: 'Lexend', Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    overflow: hidden;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    position: fixed;
+}
+
+.banner a {
+    transition: 1s;
+    margin-right: 5rem;
+    float: inline-start;
+    color: black;
+    text-align: right;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.banner a:hover {
+    transition: 0.5s;
+    color: rgb(60, 174, 255);
+
+}
+
+.element {
+    list-style-type: none;
 }
 
 input[type=text], select, textarea {
