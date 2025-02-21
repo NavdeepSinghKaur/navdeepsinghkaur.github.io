@@ -112,6 +112,15 @@ p {
     padding: 20vw;
 }
 
+.description-div {
+    text-align: center;
+    justify-content: center;
+}
+.description-div ul{
+    display: inline-block;
+    text-align: left;
+}
+
 .bottom-text {
     background-clip: text;
     text-align: center;
